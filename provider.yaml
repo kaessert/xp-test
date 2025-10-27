@@ -1,0 +1,368 @@
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-acm
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-acm:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-apigateway
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-apigateway:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-apigatewayv2
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-apigatewayv2:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-athena
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-athena:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-autoscaling
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-autoscaling:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-cloudformation
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-cloudformation:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-cloudfront
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-cloudfront:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-cloudsearch
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-cloudsearch:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-cloudwatch
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-cloudwatch:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-cloudwatchlogs
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-cloudwatchlogs:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-cognitoidentity
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-cognitoidentity:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-cognitoidp
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-cognitoidp:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-configservice
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-configservice:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-dynamodb
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-dynamodb:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-ec2
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-ec2:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-ecr
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-ecr:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-ecs
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-ecs:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-efs
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-efs:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-eks
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-eks:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-elasticache
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-elasticache:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-elb
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-elb:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-elbv2
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-elbv2:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-firehose
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-firehose:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-glue
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-glue:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-iam
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-iam:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-kafka
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-kafka:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-kinesis
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-kinesis:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-kms
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-kms:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-lambda
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-lambda:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-mq
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-mq:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-neptune
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-neptune:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-opensearch
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-opensearch:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-rds
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-rds:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-redshift
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-redshift:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-route53
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-route53:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-route53resolver
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-route53resolver:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-s3
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-s3:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-secretsmanager
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-secretsmanager:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-servicediscovery
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-servicediscovery:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-sfn
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-sfn:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-sns
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-sns:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-sqs
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-sqs:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-ssm
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-ssm:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-transfer
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-transfer:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-waf
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-waf:v1.16.0
+  packagePullPolicy: IfNotPresent
+---
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-aws-wafv2
+spec:
+  package: xpkg.upbound.io/upbound/provider-aws-wafv2:v1.16.0
+  packagePullPolicy: IfNotPresent
